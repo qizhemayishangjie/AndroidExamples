@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<!-- 在布局文件中添加一个按钮 -->
+ <!-- id是给当前元素一个唯一的标识符,如果在xml文件中引用一个id那么可以使用“@id/id_name” -->
+ <!-- android:layout_width指定当前元素的宽度，这里使用"match_parent"表示当前元素和父元素一样宽 -->
+ <!-- android:layout_height指定当前元素的高度，"wrap_content"表示当前元素的高度只要刚好包含里面的内容就行-->
+ <!-- android:text指定了元素中显示的文字内容 -->
+<Button
+    android:id="@+id/button_1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="myButton"
+    />
+</LinearLayout>

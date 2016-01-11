@@ -1,0 +1,11 @@
+package com.examnple.newsapp.domain;
+
+import android.app.Activity;
+import android.content.Context;
+
+public class NewsContentActivity extends Activity {
+	public static void actionStart(Context context,String newsTitle,String newsContent){
+		Intent intent=new Intent(context,NewsContentActivity.class);
+	}
+
+}

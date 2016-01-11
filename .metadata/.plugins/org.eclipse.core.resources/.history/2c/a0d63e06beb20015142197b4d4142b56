@@ -1,0 +1,27 @@
+package com.example.app2;
+import com.example.app2.R;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.Window;
+import android.widget.Button;
+import android.widget.Toast;
+
+public class myActivity extends Activity {
+	@Override
+	protected void onCreate(Bundle saveInstanceState){
+		super.onCreate(saveInstanceState);
+		//这行代码的作用是隐藏label，必须写在设置布局代码的前面
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		setContentView(R.layout.first_layout);
+		Button button1=(Button)findViewById(R.id.button_1);
+		button1.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Toast.makeText(myActivity.this, "success", Toast.LENGTH_SHORT).show();
+				
+			}
+		});
+	}
+}

@@ -1,0 +1,12 @@
+package com.example.code;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class myActivity extends Activity {
+	@Override
+	protected void onCreate(Bundle saveInstanceState){
+		super.onCreate(savedInstanceState);
+	}
+
+}

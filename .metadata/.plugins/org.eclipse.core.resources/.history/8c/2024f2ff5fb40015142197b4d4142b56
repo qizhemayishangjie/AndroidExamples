@@ -1,0 +1,6 @@
+import junit.framework.TestCase;
+
+
+public class news_content_frag extends TestCase {
+
+}

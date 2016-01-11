@@ -1,0 +1,7 @@
+package com.example.fragementtest;
+
+import android.app.Fragment;
+
+public class RightFragment extends Fragment {
+
+}

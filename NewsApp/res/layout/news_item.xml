@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- 
+    1.android:padding表示给控件的周围加上补白，这样不至于文本内容紧靠在边缘上
+    2.android:singleLine设置为true表示让这个TextView只能单行显示
+    3.android:ellipsize用于设定当文本内容超出控件宽度时文本的缩略方式，end代表的是在尾部进行缩略
+     -->
+    <TextView 
+        android:id="@+id/newsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"/>
+</LinearLayout>

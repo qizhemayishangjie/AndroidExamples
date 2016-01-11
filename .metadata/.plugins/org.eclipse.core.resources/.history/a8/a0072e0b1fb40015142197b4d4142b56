@@ -1,0 +1,5 @@
+package com.example.listviewtest.domain;
+
+public class FruitAdapter {
+
+}

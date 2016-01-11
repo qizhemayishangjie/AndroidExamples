@@ -1,0 +1,5 @@
+package com.examnple.newsapp.domain;
+
+public class News {
+
+}
